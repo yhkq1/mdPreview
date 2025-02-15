@@ -2,7 +2,7 @@
 
 This project was built using the following technologies:
 
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github,bootstrap,fontawesome&perline=13">
+<img src="https://skillicons.dev/icons?i=bootstrap,markdown,webstorm,html,css,js,git,github&perline=13">
 
 ##  🏁 Installation and Setup
 1. **Clone the repository**:
@@ -12,12 +12,11 @@ This project was built using the following technologies:
 
 2. **Navigate to the project folder**:
    ```bash
-   cd yhkq1.github.io
+   cd markdown-previewer
    ```
 
-3. **Open the app**:
+3. **Open the project**:
    - Open the `index.html` file in your preferred web browser.
-   - Alternatively, you can deploy the project to a server to take full advantage of all the features.
 
 ## 🛠️ Developer
 
@@ -43,4 +42,4 @@ For major changes, please open an issue first to discuss what you'd like to chan
 [![CC NC](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
 [![CC SA](https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
 
-[**yhkq1.github.io**](https://github.com/yhkq1/yhkq1.github.io) by [**Janis | @yhkq1**](https://github.com/yhkq1) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
+[**MD-Previewer**](https://github.com/yhkq1/yhkq1.github.io/md-previewer) by [**Janis | @yhkq1**](https://github.com/yhkq1) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
