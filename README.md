@@ -7,12 +7,12 @@ This project was built using the following technologies:
 ##  🏁 Installation and Setup
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yhkq1/markdown-previewer.git
+   git clone https://github.com/yhkq1/mdPreview.git
    ```
 
 2. **Navigate to the project folder**:
    ```bash
-   cd markdown-previewer
+   cd mdPreview
    ```
 
 3. **Open the project**:
@@ -42,4 +42,4 @@ For major changes, please open an issue first to discuss what you'd like to chan
 [![CC NC](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
 [![CC SA](https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
 
-[**MD-Previewer**](https://github.com/yhkq1/yhkq1.github.io/md-previewer) by [**Janis | @yhkq1**](https://github.com/yhkq1) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
+[**mdPreview**](https://github.com/yhkq1/yhkq1.github.io/md-previewer) by [**Janis | @yhkq1**](https://github.com/yhkq1) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
