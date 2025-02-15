@@ -16,14 +16,18 @@
     <link rel="stylesheet" href="styles.css">
     </head>
 <body>
+    <header>
 <h2 id="heading-h2">Live Markdown Preview</h2>
     <p id="mdInfo">Live Preview of Markdown, you can use this site for creating README.md's for GitHub!</p>
+    </header>
+    <main>
 <label for="editor"></label>
 <textarea placeholder="# Heading
 ## Sub-heading" id="editor" oninput="updatePreview()" ></textarea>
 
 <div id="preview" class="markdown-body">
 </div>
+    </main>
 <footer>
         <p>&copy; 2025 @yhkq1. All rights reserved.</p>
         <p>This website is not endorsed by or affiliated with GitHub.</p>
