@@ -12,10 +12,6 @@ h2{
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#mdInfo {
-    margin: 50 50 50 50;
-}
-
 textarea {
     width: 90%;
     height: 150px;
