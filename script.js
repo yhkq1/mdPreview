@@ -1,16 +1,3 @@
-function getParameterByName(name) {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(name);
-    }
-
-    document.addEventListener("DOMContentLoaded", function() {
-        const text = getParameterByName("text");
-        if (text) {
-            document.getElementById("editor").value = text;
-        }
-    });
-//end added
-
 window.onload = function() {
     toggleElements()
 }
@@ -42,5 +29,20 @@ downloadBtn.addEventListener("click", function(){
         downloadBtn.innerHTML = "<i class=\"fas fa-check\"></i> File Downloaded";
     }
 })
+
+//start added
+function getParameterByName(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const text = getParameterByName("text");
+        if (text) {
+            document.getElementById("editor").value = text;
+updatePreview();
+        }
+    });
+//end added
 
 
