@@ -31,18 +31,20 @@ downloadBtn.addEventListener("click", function(){
 })
 
 //start added
-function getParameterByName(name) {
+document.addEventListener("DOMContentLoaded", function () {
+    function getParameterByName(name) {
         const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get(name);
+        return decodeURIComponent(urlParams.get(name) || "");
     }
 
-    document.addEventListener("DOMContentLoaded", function() {
-        const text = getParameterByName("text");
-        if (text) {
-            document.getElementById("editor").value = text;
-updatePreview();
-        }
-    });
+    const text = getParameterByName("text");
+    const editor = document.getElementById("editor");
+
+    if (text) {
+        editor.value = text;
+        editor.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+}); 
 //end added
 
 
